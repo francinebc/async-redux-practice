@@ -3,14 +3,13 @@ import React from 'react'
 import ErrorMessage from './ErrorMessage'
 import LoadSubreddit from './LoadSubreddit'
 import SubredditList from './SubredditList'
-import WaitIndicator from './WaitIndicator'
+import DogPicture from './LoadDogPicture'
 
 const App = () => (
   <div className='app'>
     <ErrorMessage />
-    <LoadSubreddit>
-      <WaitIndicator />
-    </LoadSubreddit>
+    <LoadSubreddit />
+    <DogPicture />
     <SubredditList />
   </div>
 )
